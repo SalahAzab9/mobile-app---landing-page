@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+}
+
+header.header  {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header.header .head {
+    background-color: rgb(199, 51, 51,0.8);
+    padding-top: 90px;
+    position: relative;
+}
+
+header.header .head .head-logo {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+header.header .head .head-block h1 {
+    font-size: 30px;
+    color: #fff;
+    line-height: 38px;
+    margin-bottom: 60px;
+
+}
+
+header.header .head .head-block p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 33px;
+    margin-bottom: 85px;
+}
+
+header.header .head .head-links a img {
+    width: 250px;
+    margin-bottom: 70px;
+}
+
+header.header .head .head-links a:last-child img {
+    height: 70px;
+}
+
+header.header .head .head-photo img {
+    max-width: 100%;
+    position: absolute;
+    bottom: -210px;
+    
+}
+
+section.features .feature {
+    padding:80px 0 ;
+    background-color: #fff;
+    position: relative;
+}
+
+section.features .feature .features-cards {
+    margin-top: 90px;
+}
+
+section.features .feature .more {
+    direction: ltr;
+}
+
+section.features .feature .features-cards .d-flex{
+    margin-bottom: 70px;
+}
+
+
+section.features .feature .features-cards .flex-shrink-0 i {
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: #fff;
+    background-color: #ef473a;
+    text-align: center;
+    border-radius: 2px;
+}
+
+section.features .feature .features-image img{
+    width: 80%;
+}
+
+section.features .feature .features-cards .d-flex h5 {
+    font-size: 24px;
+    margin-bottom: 12px;
+    color:#080808 ;
+}
+
+section.features .feature .features-cards .d-flex p {
+    font-size:15px ;
+    color:#757474 ;
+    line-height: 20px;
+}
+
+section.more-features {
+    background-color: #f9f8f8;
+    padding-top: 120px;
+    position: relative;
+}
+
+section.more-features .more-features-cards {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+section.more-features .more-features-cards .d-flex {
+    margin-bottom: 60px;
+}
+
+section.more-features .more-features-cards .d-flex img {
+    margin-left: 20px;
+}
+
+section.more-features .more-features-cards .d-flex h5 {
+    font-size:24px ;
+    color: #141414;
+    line-height: 40px;
+}
+section.more-features .more-features-cards .d-flex p {
+    color:#757474 ;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+section.more-features .more-features-image {
+    position: absolute;
+    bottom: -90px;
+}
+
+section.slider {
+    background-color: #fff;
+    padding: 80px 0;
+    position: relative;
+}
+
+section.slider .slider-title h3 {
+    margin-bottom: 60px;
+    color: #141414;
+    font-size: 36px;
+}
+
+section.slider .slider-move .carousel-inner{
+    width: 60%;
+    margin: auto;
+}
+
+section.slider .slider-move .carousel-control-prev,
+section.slider .slider-move .carousel-control-next {
+    width: 70px;
+    height: 70px;
+    color: #ef473a;
+    border: 1px solid #ef473a;
+    border-radius: 50px;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+section.slider .slider-move .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ef473a;
+}
+
+section.slider .slider-move .carousel-indicators {
+    bottom: -60px ;
+}
+
+section.slider .slider-move .carousel-indicators button.active {
+    background-color: #ef473a;
+}
+
+section.faq {
+    background-image: url(../images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.faq .overlay {
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px 0;
+}
+section.faq .overlay .faq-title h4 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: #fff;
+}
+section.faq .overlay .accordion .accordion-item span {
+    color: #c9c9c9;
+    font-size:15px ;
+    line-height: 20px;
+
+}
+
+section.faq .overlay .accordion .accordion-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 0;
+}
+
+section.faq .overlay .accordion .accordion-item button {
+    background-color: transparent;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 0;
+}
+
+section.faq .overlay .accordion .accordion-item button::after {
+    content: none;
+}
+
+section.faq .overlay .accordion .accordion-item button i {
+    margin-right: auto;
+}
+
+section.faq .overlay .accordion .accordion-item button.collapsed i {
+    transform: rotate(180deg);
+}
+
+section.faq .overlay .accordion .accordion-item button:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+footer.footer {
+    background-color: #232323;
+    padding-top: 70px ;
+}
+
+footer.footer .about {
+    border-bottom: 2px solid #292828 ;
+    padding-bottom: 90px;
+}
+
+footer .about .title h5{
+    font-size: 20px;
+    line-height: 25px;
+    color: #f4f8fb;
+    padding-bottom: 25px;
+    position: relative;
+    border-bottom: 2px solid #292828;
+    margin-bottom: 35px;
+}
+
+footer .about .title h5::after {
+    content: "";
+    background-color: #ef473a;
+    width: 80px ;
+    height: 3px;
+    position: absolute;
+    right: 0;
+    bottom:-1px;
+}
+
+footer .about .content p {
+    font-size: 18px;
+    color: #757474;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+
+footer .about .social li a {
+    color: #fff;
+    display: block;
+    width: 50px;
+    height:50px;
+    line-height: 50px;
+    background-color: #353638;
+    border-radius: 50px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+footer .about .social li a:hover {
+    background-color: #ef473a;
+}
+
+footer .about .twiter .tweets i {
+    color: #ef473a;
+    font-size: 13px;
+}
+
+footer .about .twiter ul {
+    list-style: none;
+    padding: 0;
+}
+footer .about .twiter ul li:not(:last-child) {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #292828;
+}
+footer .about .twiter ul li span {
+    color: #757474;
+    font-size: 15px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+footer .about .formation form input {
+    margin-bottom: 15px;
+    text-align: right;
+    font-size: 14px;
+    line-height: 25px;
+    border: 0;
+    border-radius: 0;
+    background-color: #2c2b2b;
+    color: #c6c6c6;
+}
+
+footer .about .formation form button {
+    background-color: #ef473a;
+    color: #fff;
+    
+    border-radius: 0;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer .about .formation form .invalid-feedback {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+footer.footer .footer-footer {
+    font-size:15px ;
+    line-height: 75px;
+    color: #565656;
+
+}
+
+footer.footer .footer-footer span {
+    margin-right: 5px;
+}
+
+@media (max-width:992px) and (min-width : 768px) {
+    header.header .head {
+        padding-top: 0;
+    }
+    header.header .head .head-photo img {
+        right: 50px;
+    }
+    section.features .feature .features-cards .d-flex {
+        margin-bottom: 40px;
+    }
+    section.features .feature .features-cards .d-flex h5 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    section.features .feature .features-cards .d-flex h5 p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    section.features .feature .features-image img {
+        margin-top: 80px;
+    }
+    section.more-features {
+        padding-top: 50px;
+    }
+    section.more-features .more-features-image {
+        top :50px ;
+        right : 50px;
+    }
+    section.more-features .more-features-image img {
+        width: 75%;
+        
+    }
+    section.slider .slider-move .carousel-control-prev,
+     section.slider .slider-move .carousel-control-next  {
+         margin-top: 60px;
+     }  
+     footer .about .social li a {
+         margin-top: 10px;
+     }
+}
+
+@media (max-width :768px) {
+    header.header .head {
+        padding-top: 0;
+        padding-bottom: 400px;
+        text-align: center;
+    }
+    header.header .head .head-photo img {
+        bottom: -400px;
+        right: 30%;
+    }
+    section.features .feature {
+        padding: 0;
+    }
+    section.more-features {
+        padding-top: 0;
+        padding-bottom: 400px;
+    }
+    section.more-features .more-features-image {
+        bottom: -250px;
+    }
+    section.slider .slider-move .carousel-control-prev, 
+    section.slider .slider-move .carousel-control-next {
+        display: none;
+    }
+    section.slider .slider-move .carousel-inner {
+        width: 100%;
+    }
+    footer .about .content p {
+        margin-bottom: 30px;
+    }
+    footer .about .title h5 {
+        margin-top: 50px;
+    }
+}
